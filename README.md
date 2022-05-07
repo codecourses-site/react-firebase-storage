@@ -23,9 +23,9 @@
 
 ## 2. Live Demo
 
-- For the full course, You can refer to this [link]().
+- For the full course, You can refer to this [link](https://codecourses.site/react/how-to-use-react-and-firebase-storage).
 
-- You can refer to this [Youtube video]() for the live demo.
+- You can refer to this [Youtube video](https://youtu.be/7-buLUtEeR8) for the live demo.
 
 <a id="technologies"></a>
 
