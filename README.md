@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# How to Use React & Firebase Storage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](./screenshots/screenshot1.png)
+![](./screenshots/screenshot2.png)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+| No. | Topics                                    |
+| --- | ----------------------------------------- |
+| 1   | [About Code Courses](#about-code-courses) |
+| 2   | [Live Demo](#live-demo)                   |
+| 3   | [Technologies](#technologies)             |
+| 4   | [Running the demo](#running-the-demo)     |
+| 5   | [Useful links](#useful-links)             |
 
-### `npm start`
+<a id="about-code-courses"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 1. About Code Courses
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Code Courses](https://codecourses.site) is a website where people learn about coding and different technologies/frameworks/libraries. For the purpose of helping people learn, all of the courses are **FREE** and **DETAIL**. For this reason, Code Courses believe that you do not need to buy any courses out there. Hopefully, after following the content on Code Courses, you will find your dream jobs, and build any applications that you want.
 
-### `npm test`
+<a id="live-demo"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2. Live Demo
 
-### `npm run build`
+- For the full course, You can refer to this [link]().
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You can refer to this [Youtube video]() for the live demo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a id="technologies"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. Technologies
 
-### `npm run eject`
+This demo uses:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Firebase
+- React.js
+- Uuid
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="running-the-demo"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4. Running the demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the demo follow these steps:
 
-## Learn More
+1. Download the repository [here](https://github.com/codecourses-site/react-firebase-storage/archive/main.zip) or by running `git clone https://github.com/codecourses-site/react-firebase-storage.git` and open it in a code editor.
+2. [Head to Firebase and create a new project](https://console.firebase.google.com)
+3. Create a file called **.env** in the root folder of your project.
+4. Import and inject your secret keys in the **.env** file containing your Firebase keys in this manner.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```js
+REACT_APP_FIREBASE_API_KEY=xxx - xxx - xxx - xxx - xxx - xxx - xxx - xxx
+REACT_APP_FIREBASE_AUTH_DOMAIN=xxx - xxx - xxx - xxx - xxx - xxx - xxx - xxx
+REACT_APP_FIREBASE_STORAGE_BUCKET =
+  xxx - xxx - xxx - xxx - xxx - xxx - xxx - xxx
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+11. Make sure to exclude **.env** in your gitIgnore file from being exposed online.
+12. Run the following command to install the app.
 
-### Code Splitting
+```sh
+    npm install
+    npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Questions about running the demo? [Open an issue](https://github.com/codecourses-site/react-firebase-storage/issues). We're here to help ✌️
 
-### Analyzing the Bundle Size
+<a id="useful-links"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 5. Useful links
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🔥 [Firebase](https://console.firebase.google.com)
+- 🔷 [React.js](https://reactjs.org/)
